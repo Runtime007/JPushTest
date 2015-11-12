@@ -22,6 +22,7 @@ public class LogUtil {
      *            日志
      */
     public static void i(String tag, Object log) {
+        //change it
         if (BuildConfig.DEBUG)
             Log.i(String.format("---------- %s ----------", tag),
                   String.valueOf(log));
