@@ -12,6 +12,7 @@ public class MainActivity extends InstrumentedActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //why did you do that!
 
     }
 
